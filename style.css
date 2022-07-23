@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #202020;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+h1#especifico{
+	color: white;
+	display: flex;
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	font-size: 2em;
+	text-shadow: 2px 2px 0px #3c3cff;
+	animation-duration: 4s;
+	animation-name: aparecer;
+}
+
+@keyframes aparecer{
+	0%{opacity: 0%};
+	100%{opacity: 100%;};
+}
