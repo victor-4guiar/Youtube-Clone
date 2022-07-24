@@ -2,12 +2,37 @@
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<script src="index.js" defer></script>
-		<title>Youtube</title>
+		<title>Youtube Clone</title>
 	</head>
 	<body>
-		<h1 id="especifico">For now, nothing.</h1>
+		<header>
+			<a href="#">
+				<img src="img\logo.png" alt="Youtube Logo" class="youtube-logo">
+			</a>
+			
+			<form class="search-bar">
+				<input class="search-input" type="search" placeholder="Search" aria-label="Search" />
+				<button type="submit" class="search-btn">
+					<img src="img\magnify.png" width="18px">
+				</button>
+			</form>
+			
+			<div class="menu-icons">
+				<a href="#">
+					<img src="img\video-plus.png" alt="Upload Video">
+				</a>
+				<a href="#">
+					<img src="img\bell.png" alt="Notifications">
+				</a>
+				<a href="#">
+					<img class="menu-channel-icon" 
+					src="https://i.pinimg.com/236x/73/2a/75/732a75ba712cc5937e139dbe2ca17fa8.jpg" alt="Your Channel">
+				</a>
+			</div>
+		</header>
 	</body>
 </html>
