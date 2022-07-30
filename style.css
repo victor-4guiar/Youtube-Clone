@@ -141,6 +141,7 @@ body{
 	font-size: inherit;
 	cursor: pointer;
 	transition: background-color 150ms;
+	margin-top: 80px;
 }
 
 .category:hover{
@@ -159,9 +160,13 @@ body{
 
 .header{
 	display: flex;
+	position: fixed;
+	background-color: white;
+	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
+	border-bottom: 1px solid #999;
 }
 
 .youtube-logo{
@@ -172,6 +177,7 @@ body{
 	display: flex;
 	flex-grow: 1;
 	margin: 0 2rem 0 4rem;
+	max-width: 40%;
 }
 
 .search-input{
@@ -185,6 +191,7 @@ body{
 
 .search-btn{
 	display: flex;
+	width: 100px;
 	align-items: center;
 	padding: 0.25rem;
 	border: 1px solid #777;
@@ -196,6 +203,32 @@ body{
 	transition: background-color 150ms;
 }
 
+.magMa{
+	margin-left: 28px;
+}
+
 .search-btn:hover{
-	background-color: #f0f0f0;
+	background-color: #f8f8f0;
+}
+
+.menu-icons{
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.menu-channel-icon{
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	background-color: #aaa;
+}
+
+.upVi{
+	width: 30px;
+}
+
+.bellBe{
+	width: 20px;
 }
